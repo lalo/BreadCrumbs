@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface HLLSecondViewController : UIViewController
+@interface HLLSettingsViewController : UIViewController
 
 @end

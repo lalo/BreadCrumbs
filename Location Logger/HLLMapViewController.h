@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface HLLFirstViewController : UIViewController
+@interface HLLMapViewController : UIViewController
 
 @end

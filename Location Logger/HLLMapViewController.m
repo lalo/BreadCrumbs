@@ -1,18 +1,18 @@
 //
-//  HLLSecondViewController.m
+//  HLLFirstViewController.m
 //  Location Logger
 //
 //  Created by Eduardo Salinas on 4/27/14.
 //  Copyright (c) 2014 Eduardo Salinas. All rights reserved.
 //
 
-#import "HLLSecondViewController.h"
+#import "HLLMapViewController.h"
 
-@interface HLLSecondViewController ()
+@interface HLLMapViewController ()
 
 @end
 
-@implementation HLLSecondViewController
+@implementation HLLMapViewController
 
 - (void)viewDidLoad
 {

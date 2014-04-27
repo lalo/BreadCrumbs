@@ -14,8 +14,8 @@
 		4B266936190DCCA8003D5F83 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B266935190DCCA8003D5F83 /* main.m */; };
 		4B26693A190DCCA8003D5F83 /* HLLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B266939190DCCA8003D5F83 /* HLLAppDelegate.m */; };
 		4B26693D190DCCA8003D5F83 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B26693B190DCCA8003D5F83 /* Main.storyboard */; };
-		4B266940190DCCA8003D5F83 /* HLLFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B26693F190DCCA8003D5F83 /* HLLFirstViewController.m */; };
-		4B266943190DCCA8003D5F83 /* HLLSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B266942190DCCA8003D5F83 /* HLLSecondViewController.m */; };
+		4B266940190DCCA8003D5F83 /* HLLMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B26693F190DCCA8003D5F83 /* HLLMapViewController.m */; };
+		4B266943190DCCA8003D5F83 /* HLLSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B266942190DCCA8003D5F83 /* HLLSettingsViewController.m */; };
 		4B266945190DCCA8003D5F83 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B266944190DCCA8003D5F83 /* Images.xcassets */; };
 		4B26694C190DCCA8003D5F83 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B26694B190DCCA8003D5F83 /* XCTest.framework */; };
 		4B26694D190DCCA8003D5F83 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B266929190DCCA8003D5F83 /* Foundation.framework */; };
@@ -46,10 +46,10 @@
 		4B266938190DCCA8003D5F83 /* HLLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HLLAppDelegate.h; sourceTree = "<group>"; };
 		4B266939190DCCA8003D5F83 /* HLLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLLAppDelegate.m; sourceTree = "<group>"; };
 		4B26693C190DCCA8003D5F83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		4B26693E190DCCA8003D5F83 /* HLLFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HLLFirstViewController.h; sourceTree = "<group>"; };
-		4B26693F190DCCA8003D5F83 /* HLLFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLLFirstViewController.m; sourceTree = "<group>"; };
-		4B266941190DCCA8003D5F83 /* HLLSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HLLSecondViewController.h; sourceTree = "<group>"; };
-		4B266942190DCCA8003D5F83 /* HLLSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLLSecondViewController.m; sourceTree = "<group>"; };
+		4B26693E190DCCA8003D5F83 /* HLLMapViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HLLMapViewController.h; sourceTree = "<group>"; };
+		4B26693F190DCCA8003D5F83 /* HLLMapViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLLMapViewController.m; sourceTree = "<group>"; };
+		4B266941190DCCA8003D5F83 /* HLLSettingsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HLLSettingsViewController.h; sourceTree = "<group>"; };
+		4B266942190DCCA8003D5F83 /* HLLSettingsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLLSettingsViewController.m; sourceTree = "<group>"; };
 		4B266944190DCCA8003D5F83 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		4B26694A190DCCA8003D5F83 /* Location LoggerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Location LoggerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B26694B190DCCA8003D5F83 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -118,10 +118,10 @@
 				4B266938190DCCA8003D5F83 /* HLLAppDelegate.h */,
 				4B266939190DCCA8003D5F83 /* HLLAppDelegate.m */,
 				4B26693B190DCCA8003D5F83 /* Main.storyboard */,
-				4B26693E190DCCA8003D5F83 /* HLLFirstViewController.h */,
-				4B26693F190DCCA8003D5F83 /* HLLFirstViewController.m */,
-				4B266941190DCCA8003D5F83 /* HLLSecondViewController.h */,
-				4B266942190DCCA8003D5F83 /* HLLSecondViewController.m */,
+				4B26693E190DCCA8003D5F83 /* HLLMapViewController.h */,
+				4B26693F190DCCA8003D5F83 /* HLLMapViewController.m */,
+				4B266941190DCCA8003D5F83 /* HLLSettingsViewController.h */,
+				4B266942190DCCA8003D5F83 /* HLLSettingsViewController.m */,
 				4B266944190DCCA8003D5F83 /* Images.xcassets */,
 				4B266930190DCCA8003D5F83 /* Supporting Files */,
 			);
@@ -257,8 +257,8 @@
 			files = (
 				4B266936190DCCA8003D5F83 /* main.m in Sources */,
 				4B26693A190DCCA8003D5F83 /* HLLAppDelegate.m in Sources */,
-				4B266940190DCCA8003D5F83 /* HLLFirstViewController.m in Sources */,
-				4B266943190DCCA8003D5F83 /* HLLSecondViewController.m in Sources */,
+				4B266940190DCCA8003D5F83 /* HLLMapViewController.m in Sources */,
+				4B266943190DCCA8003D5F83 /* HLLSettingsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
