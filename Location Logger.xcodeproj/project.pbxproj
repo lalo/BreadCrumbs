@@ -467,6 +467,7 @@
 				4B26695D190DCCA8003D5F83 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4B26695E190DCCA8003D5F83 /* Build configuration list for PBXNativeTarget "Location LoggerTests" */ = {
 			isa = XCConfigurationList;
@@ -475,6 +476,7 @@
 				4B266960190DCCA8003D5F83 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
