@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface HLLSettingsViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UITextField *endpointTextField;
 
 @end
